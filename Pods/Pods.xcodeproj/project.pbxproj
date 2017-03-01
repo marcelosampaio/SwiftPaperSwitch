@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01CA6685C6403234C4315C4403ACE353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		09151648395A38B8D2567F97B938D7B3 /* Pods-SwiftPaperSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB33686E66D5D97112500D3A3B3EDC /* Pods-SwiftPaperSwitch-dummy.m */; };
+		1EACBD7C4BE3AC430369A517FA5DEE01 /* RAMPaperSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF9987B669797BE29EC7D7644B0B551 /* RAMPaperSwitch.swift */; };
+		2C2F2EE247EE500D8BCAFB1596BA1DA3 /* Pods-SwiftPaperSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B80FC3F519A495EC5824C711BA6E1A /* Pods-SwiftPaperSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32D6386F036099CBA63F85B71B794536 /* RAMPaperSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE197219A90482A0D476EB93260810EE /* RAMPaperSwitch-dummy.m */; };
+		9DD68465314315A2D44332C49CE33F50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A1784B60A426C666282D649EC1192644 /* RAMPaperSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB80646D1738B8E9D18869A62AC92218 /* RAMPaperSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C8EF1E7F8E9C2A5B02078128B1F4114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B924079B59A4363ED228C08B52B8384F;
+			remoteInfo = RAMPaperSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		193F122E8301DC3D968BA2E58473B82D /* RAMPaperSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMPaperSwitch.xcconfig; sourceTree = "<group>"; };
+		19508BC682AEEA3EB50FDACD000AAE86 /* Pods-SwiftPaperSwitch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPaperSwitch-resources.sh"; sourceTree = "<group>"; };
+		1EEB33686E66D5D97112500D3A3B3EDC /* Pods-SwiftPaperSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftPaperSwitch-dummy.m"; sourceTree = "<group>"; };
+		3451D607809D7F3FD74BD32CA112A72A /* Pods-SwiftPaperSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPaperSwitch.debug.xcconfig"; sourceTree = "<group>"; };
+		384194A2FB8E82D05BB4CACFBFA4E3F6 /* RAMPaperSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAMPaperSwitch.framework; path = RAMPaperSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		428BF03AC359EC1718A9E8E3CD1133F8 /* RAMPaperSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMPaperSwitch-prefix.pch"; sourceTree = "<group>"; };
+		5CF9987B669797BE29EC7D7644B0B551 /* RAMPaperSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMPaperSwitch.swift; path = PaperSwitch/RAMPaperSwitch.swift; sourceTree = "<group>"; };
+		5DDB3C364A17D9864EC73A6403D1EDF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E10112561632B06195E0828BBEDA563 /* Pods-SwiftPaperSwitch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPaperSwitch-acknowledgements.plist"; sourceTree = "<group>"; };
+		7227A67460BD15C5252E3A5723C8B7BC /* Pods-SwiftPaperSwitch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPaperSwitch-frameworks.sh"; sourceTree = "<group>"; };
+		76B7F1671A8D75273A5550F79FF99104 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8E8B6D4F0044BEBABB397D9CF8F4FE9 /* Pods-SwiftPaperSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPaperSwitch.release.xcconfig"; sourceTree = "<group>"; };
+		AAF403F763544E5833046409F0FFDEFD /* Pods-SwiftPaperSwitch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftPaperSwitch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE197219A90482A0D476EB93260810EE /* RAMPaperSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMPaperSwitch-dummy.m"; sourceTree = "<group>"; };
+		AE55654A3CD875283F9948FA0F10B20B /* Pods-SwiftPaperSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftPaperSwitch.modulemap"; sourceTree = "<group>"; };
+		BB80646D1738B8E9D18869A62AC92218 /* RAMPaperSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMPaperSwitch-umbrella.h"; sourceTree = "<group>"; };
+		BF3671AC1DEA3B30AF44A65DBF0119DB /* Pods_SwiftPaperSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftPaperSwitch.framework; path = "Pods-SwiftPaperSwitch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99DAEB908FCDA0883B49E45401D878A /* RAMPaperSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RAMPaperSwitch.modulemap; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1B80FC3F519A495EC5824C711BA6E1A /* Pods-SwiftPaperSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftPaperSwitch-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2469668E417B013A83FC3949AA4847CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CA6685C6403234C4315C4403ACE353 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74126351CB67D703DCD7C1E1B2B2B8D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD68465314315A2D44332C49CE33F50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D6435EC1A06397D7215ED4BFAB01F7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AABD6CC01A135EB8ECCC7A919C6B32F /* RAMPaperSwitch */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E9C8C492271F5492832FFD0852ADF58 /* Pods-SwiftPaperSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				5DDB3C364A17D9864EC73A6403D1EDF3 /* Info.plist */,
+				AE55654A3CD875283F9948FA0F10B20B /* Pods-SwiftPaperSwitch.modulemap */,
+				AAF403F763544E5833046409F0FFDEFD /* Pods-SwiftPaperSwitch-acknowledgements.markdown */,
+				6E10112561632B06195E0828BBEDA563 /* Pods-SwiftPaperSwitch-acknowledgements.plist */,
+				1EEB33686E66D5D97112500D3A3B3EDC /* Pods-SwiftPaperSwitch-dummy.m */,
+				7227A67460BD15C5252E3A5723C8B7BC /* Pods-SwiftPaperSwitch-frameworks.sh */,
+				19508BC682AEEA3EB50FDACD000AAE86 /* Pods-SwiftPaperSwitch-resources.sh */,
+				D1B80FC3F519A495EC5824C711BA6E1A /* Pods-SwiftPaperSwitch-umbrella.h */,
+				3451D607809D7F3FD74BD32CA112A72A /* Pods-SwiftPaperSwitch.debug.xcconfig */,
+				A8E8B6D4F0044BEBABB397D9CF8F4FE9 /* Pods-SwiftPaperSwitch.release.xcconfig */,
+			);
+			name = "Pods-SwiftPaperSwitch";
+			path = "Target Support Files/Pods-SwiftPaperSwitch";
+			sourceTree = "<group>";
+		};
+		6A4D81F9A625AE5AC318A279E4E73B34 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C8C492271F5492832FFD0852ADF58 /* Pods-SwiftPaperSwitch */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2D6435EC1A06397D7215ED4BFAB01F7F /* Pods */,
+				B0ABB5362E138197B7D7332F4BF362BE /* Products */,
+				6A4D81F9A625AE5AC318A279E4E73B34 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AABD6CC01A135EB8ECCC7A919C6B32F /* RAMPaperSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				5CF9987B669797BE29EC7D7644B0B551 /* RAMPaperSwitch.swift */,
+				F36BADE2C545126CEE2C6096862C1404 /* Support Files */,
+			);
+			name = RAMPaperSwitch;
+			path = RAMPaperSwitch;
+			sourceTree = "<group>";
+		};
+		B0ABB5362E138197B7D7332F4BF362BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF3671AC1DEA3B30AF44A65DBF0119DB /* Pods_SwiftPaperSwitch.framework */,
+				384194A2FB8E82D05BB4CACFBFA4E3F6 /* RAMPaperSwitch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F36BADE2C545126CEE2C6096862C1404 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76B7F1671A8D75273A5550F79FF99104 /* Info.plist */,
+				C99DAEB908FCDA0883B49E45401D878A /* RAMPaperSwitch.modulemap */,
+				193F122E8301DC3D968BA2E58473B82D /* RAMPaperSwitch.xcconfig */,
+				AE197219A90482A0D476EB93260810EE /* RAMPaperSwitch-dummy.m */,
+				428BF03AC359EC1718A9E8E3CD1133F8 /* RAMPaperSwitch-prefix.pch */,
+				BB80646D1738B8E9D18869A62AC92218 /* RAMPaperSwitch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RAMPaperSwitch";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CA58A32FA5355DDCFFE57424908D2C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1784B60A426C666282D649EC1192644 /* RAMPaperSwitch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC70829A91B9390B6DE3F5A4CBAED2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2F2EE247EE500D8BCAFB1596BA1DA3 /* Pods-SwiftPaperSwitch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B924079B59A4363ED228C08B52B8384F /* RAMPaperSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BDC157879B62A05CE0D39EDB32CA725 /* Build configuration list for PBXNativeTarget "RAMPaperSwitch" */;
+			buildPhases = (
+				E5CBF776558945430BDB78E40BA307D5 /* Sources */,
+				2469668E417B013A83FC3949AA4847CB /* Frameworks */,
+				0CA58A32FA5355DDCFFE57424908D2C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMPaperSwitch;
+			productName = RAMPaperSwitch;
+			productReference = 384194A2FB8E82D05BB4CACFBFA4E3F6 /* RAMPaperSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD2F1CE2CA697CCFCB4FED65370B8197 /* Pods-SwiftPaperSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DA7B83BB57B49C83E34A79AEFFF3357 /* Build configuration list for PBXNativeTarget "Pods-SwiftPaperSwitch" */;
+			buildPhases = (
+				560BCFBB1E6BA01B86183F11C9BF58C0 /* Sources */,
+				74126351CB67D703DCD7C1E1B2B2B8D1 /* Frameworks */,
+				ECC70829A91B9390B6DE3F5A4CBAED2B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0A023319F2DE3871317A3A503558AC2 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftPaperSwitch";
+			productName = "Pods-SwiftPaperSwitch";
+			productReference = BF3671AC1DEA3B30AF44A65DBF0119DB /* Pods_SwiftPaperSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B0ABB5362E138197B7D7332F4BF362BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD2F1CE2CA697CCFCB4FED65370B8197 /* Pods-SwiftPaperSwitch */,
+				B924079B59A4363ED228C08B52B8384F /* RAMPaperSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		560BCFBB1E6BA01B86183F11C9BF58C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09151648395A38B8D2567F97B938D7B3 /* Pods-SwiftPaperSwitch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5CBF776558945430BDB78E40BA307D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D6386F036099CBA63F85B71B794536 /* RAMPaperSwitch-dummy.m in Sources */,
+				1EACBD7C4BE3AC430369A517FA5DEE01 /* RAMPaperSwitch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0A023319F2DE3871317A3A503558AC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAMPaperSwitch;
+			target = B924079B59A4363ED228C08B52B8384F /* RAMPaperSwitch */;
+			targetProxy = 8C8EF1E7F8E9C2A5B02078128B1F4114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48E0D1C78A5C75A234534770871F7711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3451D607809D7F3FD74BD32CA112A72A /* Pods-SwiftPaperSwitch.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftPaperSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftPaperSwitch/Pods-SwiftPaperSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftPaperSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7C41285E6040F09C5121758B05A23E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193F122E8301DC3D968BA2E58473B82D /* RAMPaperSwitch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RAMPaperSwitch/RAMPaperSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMPaperSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMPaperSwitch/RAMPaperSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RAMPaperSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0D2507D44B95619C91D9D2574684E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E8B6D4F0044BEBABB397D9CF8F4FE9 /* Pods-SwiftPaperSwitch.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftPaperSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftPaperSwitch/Pods-SwiftPaperSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftPaperSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4EBD7426974AF1E44AEE20387301CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193F122E8301DC3D968BA2E58473B82D /* RAMPaperSwitch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RAMPaperSwitch/RAMPaperSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMPaperSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMPaperSwitch/RAMPaperSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RAMPaperSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DA7B83BB57B49C83E34A79AEFFF3357 /* Build configuration list for PBXNativeTarget "Pods-SwiftPaperSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E0D1C78A5C75A234534770871F7711 /* Debug */,
+				A0D2507D44B95619C91D9D2574684E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BDC157879B62A05CE0D39EDB32CA725 /* Build configuration list for PBXNativeTarget "RAMPaperSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C41285E6040F09C5121758B05A23E03 /* Debug */,
+				D4EBD7426974AF1E44AEE20387301CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

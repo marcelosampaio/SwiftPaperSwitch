@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9CE4F31B1E674A4A001129D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE4F31A1E674A4A001129D1 /* AppDelegate.swift */; };
-		9CE4F31D1E674A4A001129D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE4F31C1E674A4A001129D1 /* ViewController.swift */; };
 		9CE4F3201E674A4A001129D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4F31E1E674A4A001129D1 /* Main.storyboard */; };
 		9CE4F3221E674A4B001129D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4F3211E674A4B001129D1 /* Assets.xcassets */; };
 		9CE4F3251E674A4B001129D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4F3231E674A4B001129D1 /* LaunchScreen.storyboard */; };
+		9CE4F32D1E6752FE001129D1 /* ConfigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE4F32C1E6752FE001129D1 /* ConfigTableViewController.swift */; };
+		9F0CFF76A7663B31292534E1 /* Pods_SwiftPaperSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5185F84C0B90FE06070C6B2F /* Pods_SwiftPaperSwitch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0098B668CE84CD76DEABEA14 /* Pods-SwiftPaperSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPaperSwitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPaperSwitch/Pods-SwiftPaperSwitch.debug.xcconfig"; sourceTree = "<group>"; };
+		5185F84C0B90FE06070C6B2F /* Pods_SwiftPaperSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPaperSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE4F3171E674A4A001129D1 /* SwiftPaperSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPaperSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE4F31A1E674A4A001129D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CE4F31C1E674A4A001129D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CE4F31F1E674A4A001129D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CE4F3211E674A4B001129D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CE4F3241E674A4B001129D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CE4F3261E674A4B001129D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE4F32C1E6752FE001129D1 /* ConfigTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigTableViewController.swift; sourceTree = "<group>"; };
+		EE9FCFC50BDE40C8CCC06482 /* Pods-SwiftPaperSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPaperSwitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPaperSwitch/Pods-SwiftPaperSwitch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F0CFF76A7663B31292534E1 /* Pods_SwiftPaperSwitch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		130C7F54D23FF7BD19E4590F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0098B668CE84CD76DEABEA14 /* Pods-SwiftPaperSwitch.debug.xcconfig */,
+				EE9FCFC50BDE40C8CCC06482 /* Pods-SwiftPaperSwitch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8BFDEB77B591C2A742BB3874 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5185F84C0B90FE06070C6B2F /* Pods_SwiftPaperSwitch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9CE4F30E1E674A49001129D1 = {
 			isa = PBXGroup;
 			children = (
 				9CE4F3191E674A4A001129D1 /* SwiftPaperSwitch */,
 				9CE4F3181E674A4A001129D1 /* Products */,
+				130C7F54D23FF7BD19E4590F /* Pods */,
+				8BFDEB77B591C2A742BB3874 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				9CE4F31A1E674A4A001129D1 /* AppDelegate.swift */,
-				9CE4F31C1E674A4A001129D1 /* ViewController.swift */,
+				9CE4F32C1E6752FE001129D1 /* ConfigTableViewController.swift */,
 				9CE4F31E1E674A4A001129D1 /* Main.storyboard */,
 				9CE4F3211E674A4B001129D1 /* Assets.xcassets */,
 				9CE4F3231E674A4B001129D1 /* LaunchScreen.storyboard */,
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CE4F3291E674A4B001129D1 /* Build configuration list for PBXNativeTarget "SwiftPaperSwitch" */;
 			buildPhases = (
+				1E53F03B066C08E5DD82678F /* [CP] Check Pods Manifest.lock */,
 				9CE4F3131E674A4A001129D1 /* Sources */,
 				9CE4F3141E674A4A001129D1 /* Frameworks */,
 				9CE4F3151E674A4A001129D1 /* Resources */,
+				A299C1DD6B5CB68522F587D5 /* [CP] Embed Pods Frameworks */,
+				DD9895E216B7A0195AF281FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +159,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E53F03B066C08E5DD82678F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A299C1DD6B5CB68522F587D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPaperSwitch/Pods-SwiftPaperSwitch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD9895E216B7A0195AF281FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPaperSwitch/Pods-SwiftPaperSwitch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CE4F3131E674A4A001129D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CE4F31D1E674A4A001129D1 /* ViewController.swift in Sources */,
 				9CE4F31B1E674A4A001129D1 /* AppDelegate.swift in Sources */,
+				9CE4F32D1E6752FE001129D1 /* ConfigTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,11 +334,12 @@
 		};
 		9CE4F32A1E674A4B001129D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0098B668CE84CD76DEABEA14 /* Pods-SwiftPaperSwitch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5U294U2N56;
 				INFOPLIST_FILE = SwiftPaperSwitch/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MAS.SwiftPaperSwitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,11 +349,12 @@
 		};
 		9CE4F32B1E674A4B001129D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9FCFC50BDE40C8CCC06482 /* Pods-SwiftPaperSwitch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5U294U2N56;
 				INFOPLIST_FILE = SwiftPaperSwitch/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MAS.SwiftPaperSwitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +381,7 @@
 				9CE4F32B1E674A4B001129D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
