@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,39 +13,64 @@
         <scene sceneID="eGD-M4-yjC">
             <objects>
                 <tableViewController id="r5A-Qs-SiM" customClass="ConfigTableViewController" customModule="SwiftPaperSwitch" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="2lm-F5-ivc">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="2lm-F5-ivc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
                             <tableViewSection headerTitle="Smart Integration" id="kzY-Wz-8uc">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="280" id="GbU-hl-dk7" customClass="ConfigurationCell" customModule="SwiftPaperSwitch" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="280" id="GbU-hl-dk7" customClass="ConfigurationCell" customModule="SwiftPaperSwitch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="280"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GbU-hl-dk7" id="Q1D-Dn-Wbx">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="279"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Github Source Control" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="42" translatesAutoresizingMaskIntoConstraints="NO" id="8Pj-s4-VE3">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Github Source Control" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="42" translatesAutoresizingMaskIntoConstraints="NO" id="8Pj-s4-VE3">
                                                     <rect key="frame" x="8" y="17" width="359" height="56"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo1024" translatesAutoresizingMaskIntoConstraints="NO" id="nTp-OE-V7U">
-                                                    <rect key="frame" x="53" y="97" width="150" height="150"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1024" translatesAutoresizingMaskIntoConstraints="NO" id="nTp-OE-V7U">
+                                                    <rect key="frame" x="8" y="97" width="150" height="150"/>
                                                 </imageView>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7qH-ac-C5h">
-                                                    <rect key="frame" x="265" y="157" width="51" height="31"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7qH-ac-C5h" customClass="RAMPaperSwitch">
+                                                    <rect key="frame" x="318" y="155" width="51" height="31"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="49" id="EL8-Lt-trg"/>
+                                                        <constraint firstAttribute="height" constant="31" id="Xr5-4x-Ju5"/>
+                                                    </constraints>
                                                     <connections>
                                                         <action selector="changedSwitch:" destination="r5A-Qs-SiM" eventType="valueChanged" id="zsC-ZL-yIb"/>
                                                     </connections>
                                                 </switch>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGW-RH-oDF">
+                                                    <rect key="frame" x="166" y="155" width="144" height="33"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="144" id="l2J-HY-IeB"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="8Pj-s4-VE3" firstAttribute="trailing" secondItem="7qH-ac-C5h" secondAttribute="trailing" id="3HO-M7-c1r"/>
+                                                <constraint firstItem="8Pj-s4-VE3" firstAttribute="trailing" secondItem="Q1D-Dn-Wbx" secondAttribute="trailingMargin" id="4ZJ-ya-n0f"/>
+                                                <constraint firstItem="8Pj-s4-VE3" firstAttribute="leading" secondItem="nTp-OE-V7U" secondAttribute="leading" id="5qG-nG-f4Q"/>
+                                                <constraint firstItem="8Pj-s4-VE3" firstAttribute="leading" secondItem="Q1D-Dn-Wbx" secondAttribute="leadingMargin" id="69x-N6-OuJ"/>
+                                                <constraint firstItem="7qH-ac-C5h" firstAttribute="leading" secondItem="aGW-RH-oDF" secondAttribute="trailing" constant="8" symbolic="YES" id="JTA-0A-t0b"/>
+                                                <constraint firstItem="8Pj-s4-VE3" firstAttribute="top" secondItem="Q1D-Dn-Wbx" secondAttribute="topMargin" constant="9" id="Jkv-TD-SuA"/>
+                                                <constraint firstItem="nTp-OE-V7U" firstAttribute="centerY" secondItem="aGW-RH-oDF" secondAttribute="centerY" id="OkY-HC-Iw9"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="nTp-OE-V7U" secondAttribute="bottom" constant="24" id="bUC-Wm-b5p"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="7qH-ac-C5h" secondAttribute="bottom" constant="85" id="cMc-0y-F8i"/>
+                                                <constraint firstItem="aGW-RH-oDF" firstAttribute="top" secondItem="7qH-ac-C5h" secondAttribute="top" id="lCp-ZW-7D6"/>
+                                                <constraint firstItem="aGW-RH-oDF" firstAttribute="top" secondItem="8Pj-s4-VE3" secondAttribute="bottom" constant="82" id="t6c-ji-g7u"/>
+                                                <constraint firstItem="nTp-OE-V7U" firstAttribute="top" secondItem="8Pj-s4-VE3" secondAttribute="bottom" constant="24" id="udf-yd-hIS"/>
+                                                <constraint firstItem="aGW-RH-oDF" firstAttribute="leading" secondItem="nTp-OE-V7U" secondAttribute="trailing" constant="8" symbolic="YES" id="xgH-Ge-vIr"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -58,7 +84,8 @@
                     <navigationItem key="navigationItem" title="Configuration" id="9JS-7N-8OT"/>
                     <connections>
                         <outlet property="configImage" destination="nTp-OE-V7U" id="058-QK-emr"/>
-                        <outlet property="configSwitch" destination="7qH-ac-C5h" id="DHi-o5-pg4"/>
+                        <outlet property="configSubtitle" destination="aGW-RH-oDF" id="8Yc-8h-svd"/>
+                        <outlet property="configSwitch" destination="7qH-ac-C5h" id="CUu-df-jwl"/>
                         <outlet property="configTitle" destination="8Pj-s4-VE3" id="MHD-2D-iNJ"/>
                     </connections>
                 </tableViewController>

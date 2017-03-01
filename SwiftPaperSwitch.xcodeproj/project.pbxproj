@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C2F0D541E675CE2009C588D /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2F0D531E675CE2009C588D /* UIColor.swift */; };
+		9C2F0D561E675EFA009C588D /* RAMPaperSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2F0D551E675EFA009C588D /* RAMPaperSwitch.framework */; };
 		9CE4F31B1E674A4A001129D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE4F31A1E674A4A001129D1 /* AppDelegate.swift */; };
 		9CE4F3201E674A4A001129D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4F31E1E674A4A001129D1 /* Main.storyboard */; };
 		9CE4F3221E674A4B001129D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE4F3211E674A4B001129D1 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		0098B668CE84CD76DEABEA14 /* Pods-SwiftPaperSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPaperSwitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPaperSwitch/Pods-SwiftPaperSwitch.debug.xcconfig"; sourceTree = "<group>"; };
 		5185F84C0B90FE06070C6B2F /* Pods_SwiftPaperSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPaperSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2F0D531E675CE2009C588D /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		9C2F0D551E675EFA009C588D /* RAMPaperSwitch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RAMPaperSwitch.framework; path = "../../../Library/Developer/Xcode/DerivedData/SwiftPaperSwitch-bgaivomrymovdsgfuyslysvxlqzq/Build/Products/Debug-iphoneos/RAMPaperSwitch/RAMPaperSwitch.framework"; sourceTree = "<group>"; };
 		9CE4F3171E674A4A001129D1 /* SwiftPaperSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPaperSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE4F31A1E674A4A001129D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CE4F31F1E674A4A001129D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C2F0D561E675EFA009C588D /* RAMPaperSwitch.framework in Frameworks */,
 				9F0CFF76A7663B31292534E1 /* Pods_SwiftPaperSwitch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,9 +57,18 @@
 		8BFDEB77B591C2A742BB3874 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9C2F0D551E675EFA009C588D /* RAMPaperSwitch.framework */,
 				5185F84C0B90FE06070C6B2F /* Pods_SwiftPaperSwitch.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C2F0D521E675CD6009C588D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C2F0D531E675CE2009C588D /* UIColor.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		9CE4F30E1E674A49001129D1 = {
@@ -78,6 +92,7 @@
 		9CE4F3191E674A4A001129D1 /* SwiftPaperSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				9C2F0D521E675CD6009C588D /* Extensions */,
 				9CE4F3311E6756EE001129D1 /* Assets */,
 				9CE4F3301E6756E1001129D1 /* Resources */,
 				9CE4F32F1E6756CD001129D1 /* User Interface */,
@@ -245,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CE4F31B1E674A4A001129D1 /* AppDelegate.swift in Sources */,
+				9C2F0D541E675CE2009C588D /* UIColor.swift in Sources */,
 				9CE4F32D1E6752FE001129D1 /* ConfigTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
