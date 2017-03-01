@@ -10,8 +10,10 @@ import UIKit
 
 class ConfigTableViewController: UITableViewController {
 
-    // Outlets
-    
+    // MARK: - Outlets
+    @IBOutlet var configTitle: UILabel!
+    @IBOutlet var configImage: UIImageView!
+    @IBOutlet var configSwitch: UISwitch!
 
     
     
@@ -22,5 +24,12 @@ class ConfigTableViewController: UITableViewController {
 
     }
 
+    
+    // MARK: - UI Actions
+    @IBAction func changedSwitch(_ sender: Any) {
+        
+    }
+    
+    
 
 }

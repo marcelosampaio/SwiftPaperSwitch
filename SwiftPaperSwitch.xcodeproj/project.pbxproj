@@ -78,14 +78,46 @@
 		9CE4F3191E674A4A001129D1 /* SwiftPaperSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				9CE4F31A1E674A4A001129D1 /* AppDelegate.swift */,
-				9CE4F32C1E6752FE001129D1 /* ConfigTableViewController.swift */,
-				9CE4F31E1E674A4A001129D1 /* Main.storyboard */,
-				9CE4F3211E674A4B001129D1 /* Assets.xcassets */,
-				9CE4F3231E674A4B001129D1 /* LaunchScreen.storyboard */,
-				9CE4F3261E674A4B001129D1 /* Info.plist */,
+				9CE4F3311E6756EE001129D1 /* Assets */,
+				9CE4F3301E6756E1001129D1 /* Resources */,
+				9CE4F32F1E6756CD001129D1 /* User Interface */,
+				9CE4F32E1E6756BE001129D1 /* Controllers */,
 			);
 			path = SwiftPaperSwitch;
+			sourceTree = "<group>";
+		};
+		9CE4F32E1E6756BE001129D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CE4F32C1E6752FE001129D1 /* ConfigTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9CE4F32F1E6756CD001129D1 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9CE4F31E1E674A4A001129D1 /* Main.storyboard */,
+				9CE4F3231E674A4B001129D1 /* LaunchScreen.storyboard */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		9CE4F3301E6756E1001129D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CE4F31A1E674A4A001129D1 /* AppDelegate.swift */,
+				9CE4F3261E674A4B001129D1 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9CE4F3311E6756EE001129D1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9CE4F3211E674A4B001129D1 /* Assets.xcassets */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

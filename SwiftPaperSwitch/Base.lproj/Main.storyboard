@@ -19,7 +19,7 @@
                         <sections>
                             <tableViewSection headerTitle="Smart Integration" id="kzY-Wz-8uc">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="280" id="GbU-hl-dk7">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="280" id="GbU-hl-dk7" customClass="ConfigurationCell" customModule="SwiftPaperSwitch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="280"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GbU-hl-dk7" id="Q1D-Dn-Wbx">
@@ -40,6 +40,9 @@
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7qH-ac-C5h">
                                                     <rect key="frame" x="265" y="157" width="51" height="31"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <connections>
+                                                        <action selector="changedSwitch:" destination="r5A-Qs-SiM" eventType="valueChanged" id="zsC-ZL-yIb"/>
+                                                    </connections>
                                                 </switch>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -53,6 +56,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Configuration" id="9JS-7N-8OT"/>
+                    <connections>
+                        <outlet property="configImage" destination="nTp-OE-V7U" id="058-QK-emr"/>
+                        <outlet property="configSwitch" destination="7qH-ac-C5h" id="DHi-o5-pg4"/>
+                        <outlet property="configTitle" destination="8Pj-s4-VE3" id="MHD-2D-iNJ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hHH-go-x3t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
